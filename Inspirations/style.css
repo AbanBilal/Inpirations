@@ -1,0 +1,152 @@
+body{
+    background-image:url("/Images/bgmaain.jpg") ;
+    color: white;
+}
+
+#title{
+    text-align: center;
+    font-size: 85px;
+    font-family: "Aboreto";
+
+    transition: transform 0.5s;
+}
+
+#title:hover{
+    transform: translateY(-10px);
+}
+
+h2{
+    font-family: "Lora";
+
+    transition: transform 0.5s;
+}
+
+h2:hover{
+    transform: translateY(-5px);
+}
+
+#list1{
+    font-family: "Lora";
+    font-size: larger;
+
+    transition: transform 0.5s;
+}
+
+#list1:hover{
+    transform: translateY(-5px);
+}
+
+p{
+    font-family: "Lora";
+    font-size: larger;
+
+    transition: all 0.5s;
+}
+
+p:hover{
+    transform: translateY(-5px);
+}
+
+#img1{
+    width: 300px;
+    transform: translate(100%, 0);
+
+    transition: transform 0.5s;
+}
+
+#img1:hover{
+    transform: translateY(-5px);
+}
+
+#maindiv{
+    border: solid 5px gray;
+    border-radius: 25px;
+    width: 98%;
+    height: 300px;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+#jpP{
+    font-size: 20px;
+}
+
+#jpmainimg{
+    width: 290px;
+
+    transition: transform 0.3s;
+}
+
+#jpmainimg:hover{
+    transform: translateY(-5px);
+}
+
+#atmainimg{
+    width: 290px;
+    height: 200px;
+
+    transition: transform 0.3s;
+}
+
+#atmainimg:hover{
+    transform: translateY(-5px);
+}
+
+a{
+    color: white;
+}
+
+/* JORDAN PETERSON*/
+
+#jpbody{
+    background-image: url("/Images/bg.jpg");
+    color: white;
+}
+
+#jpsec{
+    width: 450px;
+    transform: translate(100%, 0);
+}
+
+#jplec{
+    width: 450px;
+    float: right;
+}
+
+#rfl{
+    transform: translate(150%,0);
+}
+
+#bo{
+    width: 217px;
+    transform: translate(200%,0);
+}
+
+#jpcont{
+    border: solid 3px black;
+    width: 98%;
+    height: 180px;
+    background-image:url("/Images/bg2.webp");
+}
+
+#icon{
+    transform: scale(2,2);
+    
+    transition: transform 0.5s;
+
+}
+
+#icon:hover{
+    transform: scale(3,3);
+}
+
+/* Cobra Tate */
+
+#atBody{
+    background:linear-gradient(to right, #960f14, black) ;
+}
+
+#atsec{
+    width: 450px;
+    transform: translate(100%);
+}
